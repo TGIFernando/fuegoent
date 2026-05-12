@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "FUEGO ENTERTAINMENT backend API",
   "main": "src/index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js"
@@ -16,6 +19,7 @@
     "jsonwebtoken": "^9.0.3",
     "knex": "^3.2.10",
     "multer": "^2.1.1",
+    "pg": "^8.20.0",
     "sqlite3": "^6.0.1"
   },
   "devDependencies": {
